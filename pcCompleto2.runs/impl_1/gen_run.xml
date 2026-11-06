@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1732209625">
+  <File Type="ROUTE-PWR" Name="microProcessor_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="pruebaControlUnit.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="microProcessor_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="pruebaControlUnit_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="pruebaControlUnit.msk"/>
+  <File Type="RDI-RDI" Name="pruebaControlUnit.vdi"/>
+  <File Type="BG-BIT" Name="pruebaControlUnit.bit"/>
+  <File Type="BG-DRC" Name="pruebaControlUnit.drc"/>
+  <File Type="BG-BGN" Name="pruebaControlUnit.bgn"/>
+  <File Type="BG-BIN" Name="pruebaControlUnit.bin"/>
+  <File Type="BITSTR-RBT" Name="pruebaControlUnit.rbt"/>
+  <File Type="BITSTR-NKY" Name="pruebaControlUnit.nky"/>
+  <File Type="BITSTR-BMM" Name="pruebaControlUnit_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="pruebaControlUnit.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="microProcessor_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="pruebaControlUnit.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pruebaControlUnit.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RBD_FILE" Name="pruebaControlUnit.rbd"/>
+  <File Type="OPT-HWDEF" Name="pruebaControlUnit.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pruebaControlUnit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="pruebaControlUnit_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pruebaControlUnit_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pruebaControlUnit_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="pruebaControlUnit_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="pruebaControlUnit_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="pruebaControlUnit_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="pruebaControlUnit_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pruebaControlUnit_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="pruebaControlUnit_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pruebaControlUnit_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pruebaControlUnit_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="pruebaControlUnit.pdi"/>
+  <File Type="RCFI_FILE" Name="pruebaControlUnit.rcfi"/>
+  <File Type="CFI_FILE" Name="pruebaControlUnit.cfi"/>
+  <File Type="RNPI_FILE" Name="pruebaControlUnit.rnpi"/>
+  <File Type="OPT-DRC" Name="microProcessor_drc_opted.rpt"/>
+  <File Type="NPI_FILE" Name="pruebaControlUnit.npi"/>
+  <File Type="PLACE-UTIL" Name="microProcessor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="microProcessor_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="microProcessor_io_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="microProcessor_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="microProcessor_power_routed.rpx"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="microProcessor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="microProcessor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="microProcessor_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="microProcessor_route_status.pb"/>
+  <File Type="ROUTE-DRC" Name="microProcessor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="microProcessor_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="microProcessor_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="microProcessor_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="microProcessor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="microProcessor_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="microProcessor_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="microProcessor_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="microProcessor_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="microProcessor_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="microProcessor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="microProcessor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="microProcessor_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="microProcessor_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="microProcessor_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="microProcessor_bus_skew_postroute_physopted.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/alu32b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/alu32b.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/aluControl.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/aluControl.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/controlUnit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/controlUnit.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux2to1_32b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/mux2to1_32b.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4to1_32b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/mux4to1_32b.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4to1_5b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/mux4to1_5b.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register32b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/register32b.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/registerFile.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/registerFile.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/microProcessor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/microProcessor.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ramMemory.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/ramMemory.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fullComputer.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/fullComputer.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pruebaControlUnit.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/pruebaControlUnit.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/testALU.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/testALU.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/signExtend.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/sources_1/new/signExtend.vhd"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="microProcessor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/basys3Master2.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/jsanchez/Downloads/basys3Master2.xdc"/>
+        <Attr Name="ImportTime" Val="1710003674"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/basys3Master3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brainyPC_24/brainyPC_24.srcs/constrs_1/imports/Downloads/basys3Master3.xdc"/>
+        <Attr Name="ImportTime" Val="1732049713"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Nov 21 11:55:11 2024
+# Process ID: 20988
+# Current directory: C:/Users/Esteban/Desktop/pcCompleto2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14656 C:\Users\Esteban\Desktop\pcCompleto2\pcCompleto2.xpr
+# Log file: C:/Users/Esteban/Desktop/pcCompleto2/vivado.log
+# Journal file: C:/Users/Esteban/Desktop/pcCompleto2\vivado.jou
+# Running On: Avion, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 17085 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+open_wave_config C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg
+source fullComputer.tcl
+current_wave_config {controlUnit_behav.wcfg}
+add_wave {{/fullComputer/processor/reset}} {{/fullComputer/processor/clock}} {{/fullComputer/processor/dataIn}} {{/fullComputer/processor/address}} {{/fullComputer/processor/dataOut}} {{/fullComputer/processor/write}} {{/fullComputer/processor/read}} {{/fullComputer/processor/i_irWrite}} {{/fullComputer/processor/i_branch}} {{/fullComputer/processor/i_pcWrite}} {{/fullComputer/processor/i_regWrite}} {{/fullComputer/processor/i_iorD}} {{/fullComputer/processor/i_aluSrcA}} {{/fullComputer/processor/i_read}} {{/fullComputer/processor/i_write}} {{/fullComputer/processor/i_aluZero}} {{/fullComputer/processor/i_pcEn}} {{/fullComputer/processor/i_regDst}} {{/fullComputer/processor/i_aluSrcB}} {{/fullComputer/processor/i_memToReg}} {{/fullComputer/processor/i_pcSrc}} {{/fullComputer/processor/i_aluop}} {{/fullComputer/processor/operationAlu}} {{/fullComputer/processor/irOut}} {{/fullComputer/processor/mdrOut}} {{/fullComputer/processor/rfA}} {{/fullComputer/processor/rfB}} {{/fullComputer/processor/wRFdataIn}} {{/fullComputer/processor/mux2Alu}} {{/fullComputer/processor/se2Mux}} {{/fullComputer/processor/mux4Alu}} {{/fullComputer/processor/i_AluOut}} {{/fullComputer/processor/i_AluOut2}} {{/fullComputer/processor/memOut}} {{/fullComputer/processor/pcOut}} {{/fullComputer/processor/muxAddress}} {{/fullComputer/processor/mux4PcSrc}} {{/fullComputer/processor/tempMuxPc}} {{/fullComputer/processor/aluRegOut}} {{/fullComputer/processor/regA}} {{/fullComputer/processor/regB}} {{/fullComputer/processor/wRFaddress}} 
+add_force {/fullComputer/processor/reset} -radix hex {1 0ns}
+add_force {/fullComputer/processor/clock} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/fullComputer/processor/dataIn} -radix bin {00000001010010110100100000100000 0ns}
+add_force {/fullComputer/processor/clock} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 10 ns
+add_force {/fullComputer/processor/reset} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/fullComputer/processor/dataIn} -radix hex {00100000000100000000000000000101 0ns}
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100000000000000000101 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100010000000000000101 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00000010000100011000100000100000 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg
+source fullComputer.tcl
+close_sim
+refresh_design
+launch_simulation
+open_wave_config C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg
+source fullComputer.tcl
+current_wave_config {controlUnit_behav.wcfg}
+add_wave {{/fullComputer/processor/reset}} {{/fullComputer/processor/clock}} {{/fullComputer/processor/dataIn}} {{/fullComputer/processor/address}} {{/fullComputer/processor/dataOut}} {{/fullComputer/processor/write}} {{/fullComputer/processor/read}} {{/fullComputer/processor/i_irWrite}} {{/fullComputer/processor/i_branch}} {{/fullComputer/processor/i_pcWrite}} {{/fullComputer/processor/i_regWrite}} {{/fullComputer/processor/i_iorD}} {{/fullComputer/processor/i_aluSrcA}} {{/fullComputer/processor/i_read}} {{/fullComputer/processor/i_write}} {{/fullComputer/processor/i_aluZero}} {{/fullComputer/processor/i_pcEn}} {{/fullComputer/processor/i_regDst}} {{/fullComputer/processor/i_aluSrcB}} {{/fullComputer/processor/i_memToReg}} {{/fullComputer/processor/i_pcSrc}} {{/fullComputer/processor/i_aluop}} {{/fullComputer/processor/operationAlu}} {{/fullComputer/processor/irOut}} {{/fullComputer/processor/mdrOut}} {{/fullComputer/processor/rfA}} {{/fullComputer/processor/rfB}} {{/fullComputer/processor/wRFdataIn}} {{/fullComputer/processor/mux2Alu}} {{/fullComputer/processor/se2Mux}} {{/fullComputer/processor/mux4Alu}} {{/fullComputer/processor/i_AluOut}} {{/fullComputer/processor/i_AluOut2}} {{/fullComputer/processor/pcOut}} {{/fullComputer/processor/muxAddress}} {{/fullComputer/processor/mux4PcSrc}} {{/fullComputer/processor/tempMuxPc}} {{/fullComputer/processor/aluRegOut}} {{/fullComputer/processor/regA}} {{/fullComputer/processor/regB}} {{/fullComputer/processor/wRFaddress}} 
+add_force {/fullComputer/processor/reset} -radix hex {1 0ns}
+add_force {/fullComputer/processor/clock} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100000000000000000101 0ns}
+run 100 ns
+add_force {/fullComputer/processor/reset} -radix hex {0 0ns}
+run 100 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100010000000000000101 0ns}
+run 100 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00000010001100001000100000100000 0ns}
+run 100 ns
+close_sim
+close_design

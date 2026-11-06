@@ -1,0 +1,581 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Nov 21 11:55:11 2024
+# Process ID: 20988
+# Current directory: C:/Users/Esteban/Desktop/pcCompleto2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14656 C:\Users\Esteban\Desktop\pcCompleto2\pcCompleto2.xpr
+# Log file: C:/Users/Esteban/Desktop/pcCompleto2/vivado.log
+# Journal file: C:/Users/Esteban/Desktop/pcCompleto2\vivado.jou
+# Running On: Avion, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 17085 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/esteban0516/Downloads/pcCompleto2' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'pcCompleto2.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: microProcessor
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18324
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2106.582 ; gain = 432.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'microProcessor' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:44]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'IR' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:33]
+WARNING: [Synth 8-614] signal 'enable' is read in the process but is not in the sensitivity list [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'register32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:33]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'MDR' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:140]
+INFO: [Synth 8-3491] module 'controlUnit' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/controlUnit.vhd:26' bound to instance 'controlU' of component 'controlUnit' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'controlUnit' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/controlUnit.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'controlUnit' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/controlUnit.vhd:36]
+INFO: [Synth 8-3491] module 'registerFile' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/registerFile.vhd:26' bound to instance 'regFile' of component 'registerFile' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'registerFile' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/registerFile.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'registerFile' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/registerFile.vhd:33]
+INFO: [Synth 8-3491] module 'aluControl' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/aluControl.vhd:27' bound to instance 'aluCtrl' of component 'aluControl' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'aluControl' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/aluControl.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'aluControl' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/aluControl.vhd:33]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'registerA' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:189]
+INFO: [Synth 8-3491] module 'mux2to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:25' bound to instance 'muxRegA' of component 'mux2to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:198]
+INFO: [Synth 8-638] synthesizing module 'mux2to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'mux2to1_32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:32]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'registerB' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:206]
+INFO: [Synth 8-3491] module 'mux4to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:26' bound to instance 'muxRegB' of component 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:217]
+INFO: [Synth 8-638] synthesizing module 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'mux4to1_32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:35]
+INFO: [Synth 8-3491] module 'alu32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/alu32b.vhd:26' bound to instance 'alu' of component 'alu32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'alu32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/alu32b.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'alu32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/alu32b.vhd:34]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'aluReg' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:238]
+INFO: [Synth 8-3491] module 'mux4to1_5b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_5b.vhd:26' bound to instance 'muxWr' of component 'mux4to1_5b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:246]
+INFO: [Synth 8-638] synthesizing module 'mux4to1_5b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_5b.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'mux4to1_5b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_5b.vhd:35]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'pc' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:269]
+INFO: [Synth 8-3491] module 'mux2to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:25' bound to instance 'muxPc' of component 'mux2to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:278]
+INFO: [Synth 8-3491] module 'mux4to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:26' bound to instance 'muxPcSrc' of component 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:287]
+INFO: [Synth 8-3491] module 'mux4to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:26' bound to instance 'muxWd' of component 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:297]
+INFO: [Synth 8-256] done synthesizing module 'microProcessor' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:44]
+WARNING: [Synth 8-3848] Net i_pcEn in module/entity microProcessor does not have driver. [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:123]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2216.895 ; gain = 543.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2216.895 ; gain = 543.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2216.895 ; gain = 543.230
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2216.895 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/constrs_1/imports/Downloads/basys3Master3.xdc]
+Finished Parsing XDC File [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/constrs_1/imports/Downloads/basys3Master3.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2304.668 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2329.840 ; gain = 656.176
+40 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2329.840 ; gain = 1019.391
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'fullComputer'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'fullComputer' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj fullComputer_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/alu32b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu32b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/aluControl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'aluControl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/controlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controlUnit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microProcessor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux2to1_32b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux4to1_32b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_5b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux4to1_5b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/ramMemory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ramMemory'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'register32b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/registerFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registerFile'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/fullComputer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullComputer'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fullComputer_behav xil_defaultlib.fullComputer -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fullComputer_behav xil_defaultlib.fullComputer -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling architecture behavioral of entity xil_defaultlib.register32b [register32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.controlUnit [controlunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.registerFile [registerfile_default]
+Compiling architecture behavioral of entity xil_defaultlib.aluControl [alucontrol_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux2to1_32b [mux2to1_32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux4to1_32b [mux4to1_32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu32b [alu32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux4to1_5b [mux4to1_5b_default]
+Compiling architecture behavioral of entity xil_defaultlib.microProcessor [microprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.ramMemory [rammemory_default]
+Compiling architecture behavioral of entity xil_defaultlib.fullcomputer
+Built simulation snapshot fullComputer_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fullComputer_behav -key {Behavioral:sim_1:Functional:fullComputer} -tclbatch {fullComputer.tcl} -view {C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg
+WARNING: Simulation object /ramMemory/clock was not found in the design.
+WARNING: Simulation object /ramMemory/write was not found in the design.
+WARNING: Simulation object /ramMemory/read was not found in the design.
+WARNING: Simulation object /ramMemory/address was not found in the design.
+WARNING: Simulation object /ramMemory/dataIn was not found in the design.
+WARNING: Simulation object /ramMemory/dataOut was not found in the design.
+WARNING: Simulation object /ramMemory/ramMem was not found in the design.
+source fullComputer.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fullComputer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2368.820 ; gain = 38.980
+current_wave_config {controlUnit_behav.wcfg}
+controlUnit_behav.wcfg
+add_wave {{/fullComputer/processor/reset}} {{/fullComputer/processor/clock}} {{/fullComputer/processor/dataIn}} {{/fullComputer/processor/address}} {{/fullComputer/processor/dataOut}} {{/fullComputer/processor/write}} {{/fullComputer/processor/read}} {{/fullComputer/processor/i_irWrite}} {{/fullComputer/processor/i_branch}} {{/fullComputer/processor/i_pcWrite}} {{/fullComputer/processor/i_regWrite}} {{/fullComputer/processor/i_iorD}} {{/fullComputer/processor/i_aluSrcA}} {{/fullComputer/processor/i_read}} {{/fullComputer/processor/i_write}} {{/fullComputer/processor/i_aluZero}} {{/fullComputer/processor/i_pcEn}} {{/fullComputer/processor/i_regDst}} {{/fullComputer/processor/i_aluSrcB}} {{/fullComputer/processor/i_memToReg}} {{/fullComputer/processor/i_pcSrc}} {{/fullComputer/processor/i_aluop}} {{/fullComputer/processor/operationAlu}} {{/fullComputer/processor/irOut}} {{/fullComputer/processor/mdrOut}} {{/fullComputer/processor/rfA}} {{/fullComputer/processor/rfB}} {{/fullComputer/processor/wRFdataIn}} {{/fullComputer/processor/mux2Alu}} {{/fullComputer/processor/se2Mux}} {{/fullComputer/processor/mux4Alu}} {{/fullComputer/processor/i_AluOut}} {{/fullComputer/processor/i_AluOut2}} {{/fullComputer/processor/memOut}} {{/fullComputer/processor/pcOut}} {{/fullComputer/processor/muxAddress}} {{/fullComputer/processor/mux4PcSrc}} {{/fullComputer/processor/tempMuxPc}} {{/fullComputer/processor/aluRegOut}} {{/fullComputer/processor/regA}} {{/fullComputer/processor/regB}} {{/fullComputer/processor/wRFaddress}} 
+add_force {/fullComputer/processor/reset} -radix hex {1 0ns}
+add_force {/fullComputer/processor/clock} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/fullComputer/processor/dataIn} -radix bin {00000001010010110100100000100000 0ns}
+add_force {/fullComputer/processor/clock} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 10 ns
+add_force {/fullComputer/processor/reset} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/fullComputer/processor/dataIn} -radix hex {00100000000100000000000000000101 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '00100000000100000000000000000101': Object size 32 does not match size of given value 00100000000100000000000000000101.
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100000000000000000101 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100010000000000000101 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00000010000100011000100000100000 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Esteban\Desktop\pcCompleto2\pcCompleto2.srcs\sources_1\new\microProcessor.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Esteban\Desktop\pcCompleto2\pcCompleto2.srcs\sources_1\new\controlUnit.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'fullComputer'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'fullComputer' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj fullComputer_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microProcessor'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fullComputer_behav xil_defaultlib.fullComputer -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fullComputer_behav xil_defaultlib.fullComputer -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling architecture behavioral of entity xil_defaultlib.register32b [register32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.controlUnit [controlunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.registerFile [registerfile_default]
+Compiling architecture behavioral of entity xil_defaultlib.aluControl [alucontrol_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux2to1_32b [mux2to1_32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux4to1_32b [mux4to1_32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu32b [alu32b_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux4to1_5b [mux4to1_5b_default]
+Compiling architecture behavioral of entity xil_defaultlib.microProcessor [microprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.ramMemory [rammemory_default]
+Compiling architecture behavioral of entity xil_defaultlib.fullcomputer
+Built simulation snapshot fullComputer_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fullComputer_behav -key {Behavioral:sim_1:Functional:fullComputer} -tclbatch {fullComputer.tcl} -view {C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg
+WARNING: Simulation object /ramMemory/clock was not found in the design.
+WARNING: Simulation object /ramMemory/write was not found in the design.
+WARNING: Simulation object /ramMemory/read was not found in the design.
+WARNING: Simulation object /ramMemory/address was not found in the design.
+WARNING: Simulation object /ramMemory/dataIn was not found in the design.
+WARNING: Simulation object /ramMemory/dataOut was not found in the design.
+WARNING: Simulation object /ramMemory/ramMem was not found in the design.
+source fullComputer.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fullComputer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3449.438 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3449.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'microProcessor' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:44]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'IR' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:33]
+WARNING: [Synth 8-614] signal 'enable' is read in the process but is not in the sensitivity list [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'register32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:33]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'MDR' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:140]
+INFO: [Synth 8-3491] module 'controlUnit' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/controlUnit.vhd:26' bound to instance 'controlU' of component 'controlUnit' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'controlUnit' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/controlUnit.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'controlUnit' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/controlUnit.vhd:36]
+INFO: [Synth 8-3491] module 'registerFile' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/registerFile.vhd:26' bound to instance 'regFile' of component 'registerFile' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'registerFile' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/registerFile.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'registerFile' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/registerFile.vhd:33]
+INFO: [Synth 8-3491] module 'aluControl' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/aluControl.vhd:27' bound to instance 'aluCtrl' of component 'aluControl' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'aluControl' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/aluControl.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'aluControl' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/aluControl.vhd:33]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'registerA' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:189]
+INFO: [Synth 8-3491] module 'mux2to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:25' bound to instance 'muxRegA' of component 'mux2to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:198]
+INFO: [Synth 8-638] synthesizing module 'mux2to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'mux2to1_32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:32]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'registerB' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:206]
+INFO: [Synth 8-3491] module 'mux4to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:26' bound to instance 'muxRegB' of component 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:217]
+INFO: [Synth 8-638] synthesizing module 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'mux4to1_32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:35]
+INFO: [Synth 8-3491] module 'alu32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/alu32b.vhd:26' bound to instance 'alu' of component 'alu32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'alu32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/alu32b.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'alu32b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/alu32b.vhd:34]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'aluReg' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:238]
+INFO: [Synth 8-3491] module 'mux4to1_5b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_5b.vhd:26' bound to instance 'muxWr' of component 'mux4to1_5b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:246]
+INFO: [Synth 8-638] synthesizing module 'mux4to1_5b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_5b.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'mux4to1_5b' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_5b.vhd:35]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/register32b.vhd:25' bound to instance 'pc' of component 'register32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:269]
+INFO: [Synth 8-3491] module 'mux2to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux2to1_32b.vhd:25' bound to instance 'muxPc' of component 'mux2to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:278]
+INFO: [Synth 8-3491] module 'mux4to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:26' bound to instance 'muxPcSrc' of component 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:287]
+INFO: [Synth 8-3491] module 'mux4to1_32b' declared at 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/mux4to1_32b.vhd:26' bound to instance 'muxWd' of component 'mux4to1_32b' [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:297]
+INFO: [Synth 8-256] done synthesizing module 'microProcessor' (0#1) [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sources_1/new/microProcessor.vhd:44]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3449.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3449.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3449.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 3449.438 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/constrs_1/imports/Downloads/basys3Master3.xdc]
+Finished Parsing XDC File [C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/constrs_1/imports/Downloads/basys3Master3.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3449.438 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'fullComputer'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'fullComputer' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj fullComputer_vhdl.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fullComputer_behav xil_defaultlib.fullComputer -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot fullComputer_behav xil_defaultlib.fullComputer -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fullComputer_behav -key {Behavioral:sim_1:Functional:fullComputer} -tclbatch {fullComputer.tcl} -view {C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/Esteban/Desktop/pcCompleto2/pcCompleto2.srcs/sim_1/imports/brainyPC_24/controlUnit_behav.wcfg
+WARNING: Simulation object /ramMemory/clock was not found in the design.
+WARNING: Simulation object /ramMemory/write was not found in the design.
+WARNING: Simulation object /ramMemory/read was not found in the design.
+WARNING: Simulation object /ramMemory/address was not found in the design.
+WARNING: Simulation object /ramMemory/dataIn was not found in the design.
+WARNING: Simulation object /ramMemory/dataOut was not found in the design.
+WARNING: Simulation object /ramMemory/ramMem was not found in the design.
+source fullComputer.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fullComputer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3449.438 ; gain = 0.000
+current_wave_config {controlUnit_behav.wcfg}
+controlUnit_behav.wcfg
+add_wave {{/fullComputer/processor/reset}} {{/fullComputer/processor/clock}} {{/fullComputer/processor/dataIn}} {{/fullComputer/processor/address}} {{/fullComputer/processor/dataOut}} {{/fullComputer/processor/write}} {{/fullComputer/processor/read}} {{/fullComputer/processor/i_irWrite}} {{/fullComputer/processor/i_branch}} {{/fullComputer/processor/i_pcWrite}} {{/fullComputer/processor/i_regWrite}} {{/fullComputer/processor/i_iorD}} {{/fullComputer/processor/i_aluSrcA}} {{/fullComputer/processor/i_read}} {{/fullComputer/processor/i_write}} {{/fullComputer/processor/i_aluZero}} {{/fullComputer/processor/i_pcEn}} {{/fullComputer/processor/i_regDst}} {{/fullComputer/processor/i_aluSrcB}} {{/fullComputer/processor/i_memToReg}} {{/fullComputer/processor/i_pcSrc}} {{/fullComputer/processor/i_aluop}} {{/fullComputer/processor/operationAlu}} {{/fullComputer/processor/irOut}} {{/fullComputer/processor/mdrOut}} {{/fullComputer/processor/rfA}} {{/fullComputer/processor/rfB}} {{/fullComputer/processor/wRFdataIn}} {{/fullComputer/processor/mux2Alu}} {{/fullComputer/processor/se2Mux}} {{/fullComputer/processor/mux4Alu}} {{/fullComputer/processor/i_AluOut}} {{/fullComputer/processor/i_AluOut2}} {{/fullComputer/processor/pcOut}} {{/fullComputer/processor/muxAddress}} {{/fullComputer/processor/mux4PcSrc}} {{/fullComputer/processor/tempMuxPc}} {{/fullComputer/processor/aluRegOut}} {{/fullComputer/processor/regA}} {{/fullComputer/processor/regB}} {{/fullComputer/processor/wRFaddress}} 
+add_force {/fullComputer/processor/reset} -radix hex {1 0ns}
+add_force {/fullComputer/processor/clock} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100000000000000000101 0ns}
+run 100 ns
+add_force {/fullComputer/processor/reset} -radix hex {0 0ns}
+run 100 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00100000000100010000000000000101 0ns}
+run 100 ns
+add_force {/fullComputer/processor/dataIn} -radix bin {00000010001100001000100000100000 0ns}
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 13:26:08 2024...
